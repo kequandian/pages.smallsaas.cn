@@ -1,0 +1,16 @@
+.storeInfoBar{margin: 2em 0;}
+.storeInfoBar>span:first-child{color: #aaa;margin-right: 2em;}
+
+.assistants-avatarBox{width: 68px;height: 68px;border-radius: 34px;overflow: hidden;}
+.assistants-avatarBox img{width: 100%;}
+
+.assistants-staffstoreInfoBar{margin: 1em 0;}
+.assistants-staffstoreInfoBar>span{display: inline-block;}
+.assistants-staffstoreInfoBar>span:first-child{font-size: 0.8em;color: #666;width: 80px;}
+.assistants-staffstoreInfoBar>span:nth-child(2){width: 100px;}
+
+.assistants-editButton{text-align: right;}
+.title{margin-bottom: 1em;height: 32px;}
+
+.upload{margin-top: 0.5em;}
+.upload .label{color: rgba(0, 0, 0, 0.85);text-align: right;}

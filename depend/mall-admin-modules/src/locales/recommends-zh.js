@@ -1,0 +1,16 @@
+export default {
+  'recommendsManagement.list.title': '推荐结果列表',
+  'recommendsManagement.form.title': '推荐结果设置',
+  'recommends.id': 'ID',
+  'recommends.skinField100': '皮肤特征',
+  'recommends.skinField101': '敏感',
+  'recommends.skinField102': '斑点',
+  'recommends.skinField103': '痘痘',
+  'recommends.skinField104': '皱纹',
+  'recommends.skinField105': '区间6',
+  'recommends.skinField106': '区间7',
+  'recommends.skinField107': '区间8',
+  'recommends.skinField108': '区间9',
+  'recommends.skinField109': '区间10',
+  'recommends.recommendResult': '结果',
+}

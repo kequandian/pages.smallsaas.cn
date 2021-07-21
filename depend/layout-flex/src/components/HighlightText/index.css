@@ -1,0 +1,5 @@
+.contentBox{width: 100%;box-sizing: border-box;}
+.normal{font-size: 0.8em;color: #888;}
+.special{font-size: 1.2em;color: #000;}
+.contentBox>span{display: inline-block;margin-right: 16px;}
+.contentBox>span:last-child{margin: 0;}

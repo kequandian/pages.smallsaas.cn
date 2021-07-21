@@ -1,0 +1,52 @@
+.report-barBox{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 60px;
+}
+.report-bar{
+  width: 31%;
+  height: 12px;
+}
+.report-level-1{
+  background: linear-gradient(to right, hsl(300, 100%, 96.3%), hsl(300, 100%, 95.1%));
+  margin: 0 1px;
+}
+.report-level-2{
+  background: linear-gradient(to right, hsl(50, 90%, 75.9%), hsl(50, 90%, 46.3%));
+  margin: 0 1px;
+}
+.report-level-3{
+  background: linear-gradient(to right, hsl(18, 51.5%, 67.6%), hsl(18, 51.5%, 56.3%));
+  margin: 0 1px;
+}
+
+.report-dot{
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
+  position: absolute;
+  top: -5px;
+  border: 1px solid #fff;
+  margin-left: -11px;
+}
+
+.report-nameplate{
+  width: 84px;
+  position: absolute;
+  padding: 0px 16px;
+  background: #c28324;
+  color: #fff;
+  top: 25px;
+  margin-left: -38px;
+}
+.report-nameplate::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: 36%;
+  z-index: 9;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #c28324;
+}

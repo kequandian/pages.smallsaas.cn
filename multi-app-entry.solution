@@ -1,0 +1,15 @@
+把mall-admin-html拆分成多个项目 解决方案
+==
+把mall-admin-html拆分成多个项目，每个项目包含需要在该项目的子项目
+如 mall-cms-html 需要包含kqd-news, kqd-bbs, kqd-notice
+修改项目里的.webpackrc.js, 把publicPath设置为./ext/cms
+"publicPath": process.env.NODE_ENV === 'production' ? './ext/cms’ : '/',
+
+
+假设拆分成 mall-cms-html, mall-portal-html, mall-wms-html.
+把这几个项目build出来的dist进行整合，
+mv mall-cms-html/dist cms
+mv mall-portal-html/dist portal
+mv mall-wms-html/dist wms
+然后进行打包
+zip -r mall-admin-html.zip cms portal wms

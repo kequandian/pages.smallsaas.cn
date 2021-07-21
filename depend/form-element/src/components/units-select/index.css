@@ -1,0 +1,10 @@
+.kc-units-select-add-units{
+  padding: 10px;
+  border-top: 1px solid #eee;
+  cursor: pointer;
+}
+.kc-units-select-textAlign-center{text-align: center;}
+/* 下面的是对 修改后的 re-select 的样式修正 */
+.ant-select-selection-kqd{display: flex;align-items: baseline;}
+.ant-select-selection__rendered{width: 100%;}
+.ant-select-selection-addonBefore{margin-left: 11px;}

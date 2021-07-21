@@ -1,0 +1,9 @@
+.kqd-card-select-itemBox{
+  text-align: center;
+  width: 120px;
+}
+.kqd-card-select-close{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}

@@ -1,0 +1,43 @@
+.dashboard-RankList{
+  padding: 7px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+  width: 98%;
+}
+.dashboard-RankList-header{
+  height: 60px;
+}
+.dashboard-RankList-title{
+  color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	line-height: 150%;
+	text-align: left;
+	font-weight: bold;
+}
+.dashboard-RankList-tabsButton{
+  text-align: right;
+}
+.ant-calendar-picker-input{
+  text-align: left;
+}
+.dashboard-RankList-tabsButton>*{
+  margin-left: 1em;
+}
+.dashboard-RankList-content{
+  color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+}
+.dashboard-RankList-content .dashboard-ProductItem:nth-child(1) .dashboard-ProductItem-rank{
+  color: rgba(194, 131, 36, 1);
+}
+.dashboard-RankList-content .dashboard-ProductItem:nth-child(2) .dashboard-ProductItem-rank{
+  color: rgba(166, 166, 166, 1);
+}
+.dashboard-RankList-content .dashboard-ProductItem:nth-child(3) .dashboard-ProductItem-rank{
+  color: rgba(134, 94, 33, 1);
+}

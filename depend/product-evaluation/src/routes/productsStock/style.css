@@ -1,0 +1,21 @@
+.title{text-align: center;}
+.info>div{width: 200px;display: inline-block;}
+.info>div>span{color: #000;}
+
+.popups{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.3rem;
+  min-height: 0.88rem;
+  /* background-color: #fff; */
+  vertical-align: middle;
+  overflow: hidden;
+  transition: background-color 200ms;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 0.01rem solid #E4E4E4;
+  padding: 0.5em 0;
+}

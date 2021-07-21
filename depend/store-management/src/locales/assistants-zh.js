@@ -1,0 +1,18 @@
+export default {
+  'assistants.list.title': '店员列表',
+  'assistants.form.title': '店员信息',
+  'assistants.id': 'ID',
+  'assistants.storeId': '店铺ID',
+  'assistants.code': '店员编号',
+  'assistants.name': '店员姓名',
+  'assistants.avatar': '店员头像',
+  'assistants.position': '店员职位',
+  'assistants.telephone': '店员电话',
+  'assistants.wechat': '店员微信',
+  'assistants.qq': '店员QQ',
+  'assistants.status': '店员状态',
+  'assistants.isDirector': 'isDirector',
+  'assistants.directorId': 'directorId',
+  'assistants.username': '用户名',
+  'assistants.createTime': '添加时间',
+}

@@ -1,0 +1,18 @@
+.kqd-table-action-menuItem{
+  min-width: 100px;
+  padding: 7px 8px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.kqd-table-action-menuItem i{
+  margin-right: 8px;
+  font-size: 24px;
+  vertical-align: bottom;
+}
+
+.ant-table-thead > .ant-table-row > th,
+.ant-table-tbody > .ant-table-row > td,
+thead.ant-table-thead > tr > th{
+  padding: 12px;
+}

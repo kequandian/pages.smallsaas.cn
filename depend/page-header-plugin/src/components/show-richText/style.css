@@ -1,0 +1,54 @@
+.content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.title{
+  width: 100%;
+  height: 2.8125em;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  justify-content: center;
+  border-bottom: 0.0625em solid #E4E4E4;
+}
+
+.titleIcon{
+  width: 0.5625em;
+  height: 0.9375em;
+  position: absolute;
+  top: 0.93em;
+  left: 0.93em;
+}
+
+.complete{
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.77em;
+}
+
+.titleText{
+  height: 2.8125em;
+  line-height: 2.4em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.125em;
+  letter-spacing: 12px;
+}
+
+.htmlContent{
+  padding: 0.4em;
+}
+
+.htmlContent img {
+  width: 100%;
+}

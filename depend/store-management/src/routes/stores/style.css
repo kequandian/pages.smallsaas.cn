@@ -1,0 +1,4 @@
+.storeInfo>div:first-child{min-width: 200px;display: inline-block;color: #666;}
+.storeInfo>div>span{color: #000;}
+.storeInfo .imgList{padding: 2em;}
+.storeInfo .imgList>div{display: inline-block;}

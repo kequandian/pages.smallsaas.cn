@@ -1,0 +1,14 @@
+.Statistic-timeline-option{
+  text-align: right;
+}
+.Statistic-timeline-optionItem{
+  padding: 0 .5em;
+  margin: 0 .5em;
+  font-size: 14px;
+  cursor: pointer;
+}
+.Statistic-timeline-optionItem:hover,
+.Statistic-timeline-optionItem.active
+{
+  color: #0084ff;
+}

@@ -1,0 +1,11 @@
+.kqd-SearchSelect{
+  display: flex;
+}
+.kqd-SearchSelect>.ant-select{
+  flex: 1;
+}
+.kqd-SearchSelect>span{
+  width: 40px;
+  display: flex;
+  padding-left: 8px;
+}

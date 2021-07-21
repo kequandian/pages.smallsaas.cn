@@ -1,0 +1,22 @@
+.dashboard-ProductItem{
+  display: flex;
+  align-items: center;
+  height: 92px;
+  border-top: 1px solid #eee;
+}
+.dashboard-ProductItem-rank{
+  width: 50px;
+}
+.dashboard-ProductItem-title{
+  width: 140px;
+}
+.dashboard-ProductItem-image{
+  width: 80px;
+  height: 80px;
+}
+.dashboard-ProductItem-stat{
+  width: 156px;
+  text-align: left;
+  position: absolute;
+  right: 0;
+}

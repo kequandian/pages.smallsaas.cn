@@ -1,0 +1,19 @@
+.k-white-space-xs {
+  height: 3px;
+}
+
+.k-white-space-sm {
+  height: 6px;
+}
+
+.k-white-space-md {
+  height: 9px;
+}
+
+.k-white-space-lg {
+  height: 15px;
+}
+
+.k-white-space-xl {
+  height: 21px;
+}

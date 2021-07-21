@@ -1,0 +1,30 @@
+.tabsBox{
+  display: flex;
+  /* height: calc(100vh - 45px); */
+  font-size: 14px;
+}
+.tabsBox div[role="tablist"]{display: inherit;}
+
+.tabsBox.left{
+  border-right: 1px solid #ccc;
+  text-align: left;
+}
+.tabsBox.left div[role="tablist"],
+.tabsBox.left div[role="tablist"] .tabItemBox{
+  display: block;
+}
+
+.tabItemBox{
+  /* width: 100%; */
+  padding: 8px 14px;
+  margin: 8px 0;
+  cursor: pointer;
+  display: inline-block;
+}
+.tabItemBox.active{
+  color: #c28324;
+}
+.tabItemBox.active>span{
+  padding: 0.1em 0;
+  border-bottom: 2px solid;
+}

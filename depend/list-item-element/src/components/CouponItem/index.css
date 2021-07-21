@@ -1,0 +1,98 @@
+.CouponItemBox{
+  width: 300px;
+  height: 90px;
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.CouponItem-expired .CouponItem-info .CouponItem-title,
+.CouponItem-expired .CouponItem-info .CouponItem-limit,
+.CouponItem-expired .CouponItem-preferential{
+  color: #808080 !important;
+}
+.CouponItem-expired .CouponItem-bar{
+  background-color: #808080;
+}
+.CouponItem-expired .CouponItem-preferential .CouponItem-preferential-expired{
+  display: block;
+}
+.CouponItemBox.active .CouponItem-bar{
+  background-color: rgb(255, 153, 0);
+}
+.CouponItemBox.active .CouponItem-preferential{
+  color: rgb(255, 153, 0);
+}
+
+.CouponItem-bar{
+  width: 10px;
+  height: 90px;
+  background-color: rgba(194, 131, 36, 1);
+  border-radius: 8px 0 0 8px;
+}
+.CouponItem-info{
+  flex-grow: 1;
+  background-color:#fff;
+  border-radius:  0 8px 8px 0;
+  border-right: 1px #ccc dashed;
+  padding: 12px;
+}
+.CouponItem-preferential{
+  width: 100px;
+  height: 90px;
+  background-color:#fff;
+  border-radius: 8px;
+  padding: 18px 12px;
+  color: rgba(194, 131, 36, 1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.CouponItem-info .CouponItem-title{
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+.CouponItem-info .CouponItem-limit{
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  color: rgba(194, 131, 36, 1);
+}
+.CouponItem-info .date{
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #808080;
+}
+
+.CouponItem-preferential .CouponItem-preferential-expired{
+  width: 5em;
+  font-size: 12px;
+  color: #fff;
+  background: #808080;
+  position: absolute;
+  right: -15px;
+  top: 6px;
+  transform: rotate(45deg);
+  display: none;
+}
+.CouponItem-preferential .CouponItem-preferential-expired>div{
+  transform: scale(0.9);
+}
+.CouponItem-preferential .CouponItem-value{
+  height: 60px;
+  line-height: 60px;
+  font-size: 38px;
+}
+.CouponItem-preferential .CouponItem-discount{
+  display: inline-block;
+  transform: translate(-100%, -40%);
+}
+.CouponItem-preferential .CouponItem-discount-value{
+  height: 60px;
+  line-height: 60px;
+  font-size: 38px;
+}

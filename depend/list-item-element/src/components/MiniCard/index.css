@@ -1,0 +1,6 @@
+.kqd-item-miniCard{background-color: #fff;border: #ccc solid 1px;border-radius: 5px;display: inline-block;
+  text-align: center;margin: 0 18px 0 0;padding: 5px 22px;
+}
+.kqd-item-miniCard .miniCard-title{font-size: 10px;}
+.kqd-item-miniCard .miniCard-value{font-size: 18px;font-weight: 900;}
+.kqd-item-miniCard.active{color: #1890ff;border-color: #1890ff;}

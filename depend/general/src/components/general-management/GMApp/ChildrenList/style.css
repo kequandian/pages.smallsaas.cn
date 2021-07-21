@@ -1,0 +1,5 @@
+.priceBox>div{text-align: right;margin-bottom: 0.5em;}
+.price>span{color: #f66;margin-left: 0.5em;}
+.priceBox .ligth{opacity: 0.5;}
+.priceBox .ant-form-item-control-wrapper{display: inline-block;}
+.priceBox .total{font-size: 1.2em;font-weight: 900;}

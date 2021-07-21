@@ -1,0 +1,22 @@
+.kqd-Survey-TopicBox{
+  box-shadow: 0 0 10px 0px #d1e2f6;
+  padding: .5em 1em;
+  margin-bottom: 16px;
+}
+.kqd-Survey-EditTopicPanel-title{
+  cursor: pointer;
+}
+.kqd-Survey-EditTopicPanel{
+  box-shadow: 0 0 10px 0px #3b85dc;
+  padding: .5em 1em;
+  margin: .5em 0;
+}
+.kqd-Survey-EditTopicPanel-item{
+  margin: .5em 0;
+}
+.kqd-Survey-EditTopicPanel-removeItem i{
+  color: red;
+  font-size: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.pickerBox{display: flex;justify-content: center;height: 180px;position: relative;user-select: none;overflow: hidden;}
+.pickerBox .select,
+.pickerItemBox>div{width: 100%;position: absolute;left: 0;right: 0;text-align: center;}
+.select{height: 36px;top: 72px;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;cursor: move;}
+
+.pickerItemBox{width: 100%;}
+.pickerItem{height: 36px;line-height: 36px;}

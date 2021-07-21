@@ -1,0 +1,77 @@
+
+.header {
+  padding: 0 12px 0 0;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+  position: relative;
+}
+
+.header-logo {
+  height: 64px;
+  line-height: 58px;
+  vertical-align: top;
+  display: inline-block;
+  padding: 0 0 0 24px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.header-logo img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-menu {
+  :global(.anticon) {
+    margin-right: 8px;
+  }
+  :global(.ant-dropdown-menu-item) {
+    width: 160px;
+  }
+}
+
+i.header-trigger {
+  font-size: 20px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: all .3s, padding 0s;
+  padding: 0 24px;
+}
+i.header-trigger:hover {
+  background: #e6f7ff;
+}
+
+
+.header-right {
+  float: right;
+  height: 100%;
+}
+.header-action {
+  cursor: pointer;
+  padding: 0 12px;
+  display: inline-block;
+  transition: all .3s;
+  height: 100%;
+}
+.header-action  > i {
+  font-size: 16px;
+  vertical-align: middle;
+}
+.header-action:hover,
+.header-action:global(.ant-popover-open) {
+      background: #e6f7ff;
+    }
+
+.header-search {
+  padding: 0;
+  margin: 0 12px;
+}
+.header-search:hover {
+  background: transparent;
+}
+
+.header-account-avatar {
+  margin: 20px 8px 20px 0;
+  color: #1890ff;
+  background: rgba(255, 255, 255, .85);
+  vertical-align: middle;
+}

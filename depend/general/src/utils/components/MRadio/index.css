@@ -1,0 +1,30 @@
+.kqd-MRadio {
+  display: flex;
+  user-select: none;
+}
+.kqd-MRadio-Item {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.kqd-MRadio-radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #c28324;
+  position: relative;
+}
+.kqd-MRadio-radio .checked {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background: #c28324;
+  transition: all .2s;
+}
+.kqd-MRadio-label {
+  flex: 1;
+  padding-left: 8px;
+}

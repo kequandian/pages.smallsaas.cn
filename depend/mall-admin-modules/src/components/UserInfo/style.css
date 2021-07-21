@@ -1,0 +1,5 @@
+.vip-center-userStatus{display: flex;justify-items: center;align-items: center;}
+.vip-center-userStatus>div:first-child{margin-right: 2rem;}
+.vip-center-avatarBox{border-radius: 3rem;overflow: hidden;width: 80px;height: 80px;}
+.vip-center-tabsBox{padding: 1rem 0;}
+.vip-center-TextRight{text-align: right;}

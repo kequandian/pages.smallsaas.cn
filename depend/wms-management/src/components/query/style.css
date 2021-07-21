@@ -1,0 +1,10 @@
+.status{color: #f66;font-size: 2em;}
+.wms-query-info>span{
+  margin-right: 2em;
+  min-width: 260px;
+  width: 24%;
+  display: inline-block;
+  font-size: 14px;
+}
+.price{text-align: right;}
+.price>span{color: #f66;}

@@ -1,0 +1,19 @@
+.Statistic-row{
+  padding: 12px 20px;
+  background: #fff;
+  margin-bottom: 18px;
+  border-radius: 5px;
+}
+.Statistic-row-title{
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+.Statistic-compact .Statistic-row,
+.Statistic-compact .Statistic-row-title{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}

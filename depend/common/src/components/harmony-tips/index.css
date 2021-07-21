@@ -1,0 +1,47 @@
+.alertBox{
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+  padding: 1em;
+  margin: 1em;
+  position: relative;
+}
+.alertBox .close{
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  cursor: pointer;
+}
+.alertBox .title{
+  font-size: 1.48em;
+  margin-bottom: 0.5em;
+}
+.alertBox .content{
+  margin-bottom: 0.5em;
+}
+
+.alertBox .icon{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: 100%;
+}
+.alertBox .icon.chrome{
+  background-image: url('./icon/chrome.png');
+}
+.alertBox .icon.qq{
+  background-image: url('./icon/qqBrowser.png');
+}
+.alertBox .icon.qihu{
+  background-image: url('./icon/360Browser.png');
+}
+.alertBox .item{
+  height: 40px;
+  display: inline-block;
+  margin: 0.5em 2em 0.5em 0;
+  color: #000;
+}
+.alertBox .itemText{
+  line-height: 40px;
+  vertical-align: top;
+  margin-left: 1em;
+}

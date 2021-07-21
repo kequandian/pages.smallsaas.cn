@@ -1,0 +1,7 @@
+.kc-image-adaptive {
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    overflow: hidden;
+}

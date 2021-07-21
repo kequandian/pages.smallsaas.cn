@@ -1,0 +1,19 @@
+.Statistic-Num-box{
+  padding: .5em 1em;
+}
+.Statistic-Num-title{
+  font-size: 12px;
+  color: #888;
+}
+.Statistic-Num-title{
+  font-size: 14px;
+  color: #666;
+}
+.Statistic-Num-value{
+  font-size: 2em;
+  font-weight: 600;
+}
+.Statistic-Num-trend{
+  font-size: 12px;
+  color: #aaa;
+}

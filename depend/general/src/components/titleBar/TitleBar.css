@@ -1,0 +1,20 @@
+.titleContainer {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  border-bottom: 0.0625em solid #E4E4E4;
+}
+.contentBox{
+  padding-top: 3.25em;
+  background-color: #fff;
+}
+
+.imgCss{
+  width: 21px;
+  height: 21px;
+}
+
+.style {
+  height: 45px;
+}

@@ -1,0 +1,27 @@
+.tagListBox{display: flex;flex-wrap: wrap;justify-content: flex-start;align-items: stretch;}
+.tagItemBox{padding: 0 1em;min-width: 6em;text-align: center;border: 1px #d9d9d9 solid;margin: 2px;cursor: pointer;transition: all 0.5s;position: relative;}
+.tagItemBox.checked,
+.tagItemBox:hover{border: 1px #1890ff solid;}
+.tagItemBox.checked::after,
+.tagItemBox:hover::after{
+  content: ' ';
+  display: block;
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+  width: 0;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent transparent #1890ff;
+  transform: rotate(45deg);
+}
+.tagItemBox.checked::before,
+.tagItemBox:hover::before{
+  content: '\2713';
+  display: block;
+  color: #fff;
+  position: absolute;
+  right: 1px;
+  bottom: -12px;
+  z-index: 2;
+}

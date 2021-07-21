@@ -1,0 +1,34 @@
+.kqd-statistic-groupCard{
+  font-family: 'Microsoft YaHei';
+  background-color: #fff;
+  border: #ccc solid 1px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 4px 22px;
+  margin: 0 8px;
+  height: 60px;
+}
+.kqd-statistic-groupCard-item{
+  flex: 1;
+  position: relative;
+}
+.kqd-statistic-groupCard-title{
+  font-size: 14px;
+  color: #888;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.kqd-statistic-groupCard-value{
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

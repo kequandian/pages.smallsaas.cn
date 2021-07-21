@@ -1,0 +1,28 @@
+
+.login-main {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.login-icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color .3s;
+}
+.login-icon:hover {
+    color: #40a9ff;
+  }
+
+
+.login-other {
+  text-align: left;
+  margin-top: 24px;
+  line-height: 22px;
+}
+
+.login-register {
+  float: right;
+}

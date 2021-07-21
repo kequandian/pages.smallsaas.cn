@@ -1,0 +1,18 @@
+export default {
+  'stock.list.title': '日志列表',
+  'stock.form.title': '日志信息',
+  'stock.typeId': '类别',
+  'stock.categoryId': '子类别',
+  'stock.title': '标题',
+  'stock.subTitle': '子标题',
+  'stock.subHead': '子标题',
+  'stock.summary': '概要',
+  'stock.sticky': '排序号',
+  'stock.recommended': '推荐数',
+  'stock.visitCount': '阅读数',
+  'stock.likeCount': '点赞数',
+  'stock.favoriteCount': '喜欢数',
+  'stock.status': '状态',
+  'stock.images': '图片',
+  'stock.contents': '日志内容',
+}

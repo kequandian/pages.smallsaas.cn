@@ -1,0 +1,26 @@
+.report-padding{
+  padding: 1em;
+  background: #fff;
+}
+.report-title{
+  color: #000;
+  font-size: 14px;
+  text-indent: 1.6em;
+  position: relative;
+  margin-bottom: 8px;
+}
+.report-title::before{
+  content: ' ';
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: #c28324;
+  border-radius: .5em;
+  position: absolute;
+  top: 3px;
+}
+.report-centerTitle{
+  text-align: center;
+  color: #000;
+  margin: 0.5em 0;
+}

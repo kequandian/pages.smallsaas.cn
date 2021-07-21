@@ -1,0 +1,41 @@
+.title{text-align: center;}
+.info{text-align: right;color: #888;}
+
+.textRight{text-align: right;}
+.textCenter{text-align: center;}
+
+.stock-avatatBox{width: 60px;height: 60px;border-radius: 30px;overflow: hidden;}
+.stock-userName{font-size: 1.2em;font-weight: 600;}
+
+.popups{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.3rem;
+  min-height: 0.88rem;
+  /* background-color: #fff; */
+  vertical-align: middle;
+  overflow: hidden;
+  transition: background-color 200ms;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 0.01rem solid #E4E4E4;
+  padding: 0.5em 0;
+}
+.label{
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #6ca0f7;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: left;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*padding-top: 0.14rem;*/
+  /*padding-bottom: 0.14rem;*/
+}

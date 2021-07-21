@@ -1,0 +1,15 @@
+.kc-comment-box{padding: 1rem 0;}
+.kc-comment-item{padding: 1rem 0;transition: all .5s;}
+.kc-comment-item.active,
+.kc-comment-item:hover {background-color: #eee;transition: all .5s;}
+/* .kc-comment-addItem{margin-left: 70px} */
+.kc-comment-secondary-content{word-wrap: break-word;}
+.kc-comment-action{}
+
+.kc-comment-avatar{
+  text-align: center;
+}
+
+.kc-comment-textConter{text-align: center;}
+.kc-comment-textRight{text-align: right;}
+.kc-comment-secondary-color{color: #888;}

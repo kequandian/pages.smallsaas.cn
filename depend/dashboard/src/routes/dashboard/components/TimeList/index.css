@@ -1,0 +1,37 @@
+.dashboard-TimeList{
+  height: 480px;
+  padding: 7px 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+  width: 98%;
+}
+.dashboard-TimeList-header{
+  height: 95px;
+}
+.dashboard-TimeList-title{
+  color: rgba(80, 80, 80, 1);
+	font-size: 16px;
+	line-height: 150%;
+	text-align: left;
+	font-weight: bold;
+}
+.dashboard-TimeList-content{
+  height: 368px;
+  overflow: hidden scroll;
+  color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+}
+.dashboard-TimeList-content .dashboard-ProductItem:nth-child(1) .dashboard-ProductItem-rank{
+  color: rgba(194, 131, 36, 1);
+}
+.dashboard-TimeList-content .dashboard-ProductItem:nth-child(2) .dashboard-ProductItem-rank{
+  color: rgba(166, 166, 166, 1);
+}
+.dashboard-TimeList-content .dashboard-ProductItem:nth-child(3) .dashboard-ProductItem-rank{
+  color: rgba(134, 94, 33, 1);
+}

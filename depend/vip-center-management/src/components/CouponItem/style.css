@@ -1,0 +1,5 @@
+.CouponItem{height: 100px;}
+.CouponItem>div{text-align: center;margin: 16px;box-sizing: border-box;}
+.CouponItem>div>div{padding: 16px;box-sizing: border-box;}
+
+.CouponItem .CouponItem-title{position: relative;top: 50%;transform: translateY(-50%);}

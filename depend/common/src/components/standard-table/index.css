@@ -1,0 +1,14 @@
+
+.kc-std-table {
+    margin-top: 24px;
+}
+
+.kc-std-table-alert {
+    margin-bottom: 16px;
+}
+/* 一对多情况下，表单的 select 样式会与 table 分页器 的 select 冲突，故加下面这条用于修正 */
+.ant-pagination-options-size-changer.ant-select{width: auto;}
+
+.kc-std-table-total-td {
+    /* text-align: right; */
+}

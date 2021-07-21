@@ -1,0 +1,8 @@
+.DS_Store
+build
+node_modules
+*.log
+#dist
+#lib
+storybook-static
+package-lock.json

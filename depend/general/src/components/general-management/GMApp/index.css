@@ -1,0 +1,6 @@
+.ant-form-item-children .ant-select {
+  min-width: 120px;
+}
+.GeneralChildrenList .ant-table-fixed-right tr:last-child td{
+  display: none;
+}
